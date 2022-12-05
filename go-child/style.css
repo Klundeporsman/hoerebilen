@@ -1,0 +1,88 @@
+/*
+Theme Name: lastilast
+Template: go
+Author: Mememe
+Version: 1.0.1670199712
+Updated: 2022-12-05 00:21:52
+
+*/
+
+.site-header{
+    width: auto;
+    height: 150px;
+}
+
+
+.custom-logo-link{
+  background-color: #043d44 !important;
+  width: 150px;
+  height: 200px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 77%);
+  overflow: visible;
+  z-index: 2;
+}
+
+.custom-logo{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}
+
+li:hover {
+    background-color: #ffde9a;
+    color: black;
+}
+
+.foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: auto;
+    height: 350px;
+}
+  
+@media screen and (max-width: 600px) {
+    .foot {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+}
+  
+.foot h3 {
+    font-size: 18px;
+}
+  
+.foot p {
+    font-size: 16px;
+}
+  
+.foot .box_f1 {
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+  
+.foot .box_f2 {
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+  
+.foot .box_f3 {
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+  
+
